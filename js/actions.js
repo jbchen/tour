@@ -44,7 +44,8 @@ function createMap() {
 
   window.map = new google.maps.Map(document.getElementById('mapid'), {
     zoom: MAP_ZOOM,
-    center: MAP_CENTER
+    center: MAP_CENTER,
+    gestureHandling: 'cooperative'
   });
   window.directionsDisplay.setMap(window.map);
   window.trafficLayer.setMap(window.map)
