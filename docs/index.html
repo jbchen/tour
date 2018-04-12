@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Higher</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico"-->
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/toastr.css">
+    <link rel="stylesheet" href="../css/map.css">
+    <link rel="stylesheet" href="../css/material.indigo-pink.min.css">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsrHOs6AcLViUb4OA2PGIhtACOriOH0uY&libraries=drawing"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/underscore-min.js"></script>
+    <script src="../js/d3.min.js"></script>
+    <script src="../js/toastr.min.js"></script>
+    <script src="../js/bootstrap3-typeahead.min.js"></script>
+    <script src="../js/actions.js"></script>
+
+</head>
+<body>
+<div id="box">
+    <div id="mapid" style="height: 100vh;"></div>
+</div>
+
+<script>
+    createMap();
+    showJourney();
+    showDestinations();
+</script>
+</body>
+</html>
