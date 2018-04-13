@@ -44,8 +44,8 @@ function createMap() {
 
   window.map = new google.maps.Map(document.getElementById('mapid'), {
     zoom: MAP_ZOOM,
-    center: MAP_CENTER,
-    gestureHandling: 'cooperative'
+    center: MAP_CENTER
+    //gestureHandling: 'cooperative'
   });
   window.directionsDisplay.setMap(window.map);
   window.trafficLayer.setMap(window.map)
@@ -180,6 +180,7 @@ const CONTENTS = {
     <br>
     <br>
     <p><b>Established: October 9, 1701</b>  Students: 12,312 </p>
+    <p>Notable graduates: <b>Hillary Clinton, George Bush, Meryl Streep, Jodie Foster, Bill Clinton</b></p>
     <a href="https://admissions.yale.edu/visit-campus" target="_blank">visit</a>
     </div>`,
 
@@ -189,6 +190,7 @@ const CONTENTS = {
     <br>
     <br>
     <p><b>Established: 1746</b>  Students: 8,181 </p>
+    <p>Notable graduates: <b>John F. Kennedy, Michelle Obama, Ralph Nader, Jeff Bezos</b></p>
     <a href="https://www.princeton.edu/meet-princeton/visit-us" target="_blank">visit</a>
     </div>`,
 
@@ -198,6 +200,7 @@ const CONTENTS = {
     <br>
     <br>
     <p><b>Established: 1764</b>  Students: 9,380</p>
+    <p>Notable graduates: <b>Emma Watson, Ted Turner, Janet Yellen, </b></p>
     <a href="https://www.brown.edu/admission/undergraduate/visit" target="_blank">visit</a>
     </div>`,
 
